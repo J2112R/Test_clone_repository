@@ -1,0 +1,4 @@
+SELECT
+  COUNT(*) AS rows,
+  COUNT(DISTINCT advertiser_id) AS advertisers
+FROM `project.dataset.advertising_campaigns`;

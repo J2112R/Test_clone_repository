@@ -1,0 +1,6 @@
+SELECT
+  date,
+  COUNT(DISTINCT campaign_id) AS active_campaigns
+FROM `project.dataset.advertising_campaigns`
+GROUP BY date
+ORDER BY date;
